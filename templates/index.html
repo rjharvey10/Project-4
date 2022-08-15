@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel / DC Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="rendered-form">
+        <div class="col">
+            <h1>Are you a good or bad character in the Marvel / DC Universe?</h1>
+                <h4>Make your selections below, then press the button to find out.</h4>
+            </div>
+                <form action="{{ url_for("gfg")}}" method="post">
+                    <div class="container">
+                        <div class="row align-items-start">
+                            <div class="col-md-2">
+                    <div class="formbuilder-radio-group form-group field-id">
+                <label for="id" class="formbuilder-radio-group-label">ID<span class="formbuilder-required">*</span></label>
+                <div class="radio-group">
+                    <div class="formbuilder-radio">
+                        <input name="id" access="false" id="id-0" required="required" aria-required="true" value="Secret Identity" type="radio">
+                        <label for="id-0">Secret Identity</label>
+                    </div>
+                    <div class="formbuilder-radio">
+                        <input name="id" access="false" id="id-1" required="required" aria-required="true" value="Public Identity" type="radio">
+                        <label for="id-1">Public Identity</label>
+                    </div>
+                    <div class="formbuilder-radio">
+                        <input name="id" access="false" id="id-2" required="required" aria-required="true" value="No Dual Identity" type="radio" checked="checked">
+                        <label for="id-2">No Dual Identity</label>
+                    </div>
+                    <div class="formbuilder-radio">
+                        <input name="id" access="false" id="id-3" required="required" aria-required="true" value="Identity Unknown" type="radio" checked="checked">
+                        <label for="id-3">Identity Unknown</label>
+                    </div>
+                    <div class="formbuilder-radio">
+                        <input name="id" access="false" id="id-4" required="required" aria-required="true" value="Known to Authorities Identity" type="radio" checked="checked">
+                        <label for="id-4">Known to Authorities</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="formbuilder-radio-group form-group field-hair">
+                <label for="hair" class="formbuilder-radio-group-label">Hair<span class="formbuilder-required">*</span></label>
+                <div class="radio-group">
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-0" required="required" aria-required="true" value="Auburn Hair" type="radio">
+                        <label for="hair-0">Auburn Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-1" required="required" aria-required="true" value="Bald" type="radio">
+                        <label for="hair-1">Bald</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-2" required="required" aria-required="true" value="Black Hair" type="radio" checked="checked">
+                        <label for="hair-2">Black Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-3" required="required" aria-required="true" value="Blue Hair" type="radio">
+                        <label for="hair-3">Blue Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-4" required="required" aria-required="true" value="Blond Hair" type="radio">
+                        <label for="hair-4">Blond Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-5" required="required" aria-required="true" value="Bronze Hair" type="radio">
+                        <label for="hair-5">Bronze Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-6" required="required" aria-required="true" value="Brown Hair" type="radio">
+                        <label for="hair-6">Brown Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-7" required="required" aria-required="true" value="Gold Hair" type="radio">
+                        <label for="hair-7">Gold Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-8" required="required" aria-required="true" value="Green Hair" type="radio">
+                        <label for="hair-8">Green Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-9" required="required" aria-required="true" value="Grey Hair" type="radio">
+                        <label for="hair-9">Grey Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-10" required="required" aria-required="true" value="Light Brown Hair" type="radio">
+                        <label for="hair-10">Light Brown Hair</label>
+                    </div>
+                    <div class="d-inline bg-white"">
+                        <input name="hair" access="false" id="hair-11" required="required" aria-required="true" value="Magenta Hair" type="radio">
+                        <label for="hair-11">Magenta Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-12" required="required" aria-required="true" value="No Hair" type="radio">
+                        <label for="hair-12">No Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-13" required="required" aria-required="true" value="Orange Hair" type="radio">
+                        <label for="hair-13">Orange Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-14" required="required" aria-required="true" value="Orange-brown Hair" type="radio">
+                        <label for="hair-14">Orange-brown Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-15" required="required" aria-required="true" value="Pink Hair" type="radio">
+                        <label for="hair-15">Pink Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-16" required="required" aria-required="true" value="Platinum Blond Hair" type="radio">
+                        <label for="hair-16">Platinum Blond Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-17" required="required" aria-required="true" value="Purple Hair" type="radio">
+                        <label for="hair-17">Purple Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-18" required="required" aria-required="true" value="Red Hair" type="radio">
+                        <label for="hair-18">Red Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-19" required="required" aria-required="true" value="Reddish Blond Hair" type="radio">
+                        <label for="hair-19">Reddish Blond Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-20" required="required" aria-required="true" value="Reddish Brown Hair" type="radio">
+                        <label for="hair-20">Reddish Brown Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-21" required="required" aria-required="true" value="Silver Hair" type="radio">
+                        <label for="hair-21">Silver Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-22" required="required" aria-required="true" value="Strawberry Blond Hair" type="radio">
+                        <label for="hair-22">Strawberry Blond Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-23" required="required" aria-required="true" value="Variable Hair" type="radio">
+                        <label for="hair-23">Variable Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-24" required="required" aria-required="true" value="Violet Hair" type="radio">
+                        <label for="hair-24">Violet Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-25" required="required" aria-required="true" value="White Hair" type="radio">
+                        <label for="hair-25">White Hair</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="hair" access="false" id="hair-26" required="required" aria-required="true" value="Yellow Hair" type="radio">
+                        <label for="hair-26">Yellow Hair</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="formbuilder-radio-group form-group field-sex">
+                <label for="sex" class="formbuilder-radio-group-label">Sex<span class="formbuilder-required">*</span></label>
+                <div class="radio-group">
+                    <div class="formbuilder-radio-inline">
+                        <input name="sex" access="false" id="sex-0" required="required" aria-required="true" value="Male Characters" type="radio">
+                        <label for="sex-0">Male Characters</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="sex" access="false" id="sex-1" required="required" aria-required="true" value="Female Characters" type="radio" checked="checked">
+                        <label for="sex-1">Female Characters</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="sex" access="false" id="sex-2" required="required" aria-required="true" value="Unknown" type="radio">
+                        <label for="sex-2">Unknown</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="sex" access="false" id="sex-3" required="required" aria-required="true" value="Agender Characters" type="radio">
+                        <label for="sex-3">Agender Characters</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="sex" access="false" id="sex-4" required="required" aria-required="true" value="Genderfluid Characters" type="radio">
+                        <label for="sex-4">Genderfluid Characters</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="sex" access="false" id="sex-5" required="required" aria-required="true" value="Genderless Characters" type="radio">
+                        <label for="sex-5">Genderless Characters</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row align-items-center">
+        <div class="col-md-2">
+            <div class="formbuilder-radio-group form-group field-gsm">
+                <label for="gsm" class="formbuilder-radio-group-label">GSM<span class="formbuilder-required">*</span></label>
+                <div class="radio-group">
+                    <div class="formbuilder-radio-inline">
+                        <input name="gsm" access="false" id="gsm-0" required="required" aria-required="true" value="Heterosexual" type="radio">
+                        <label for="gsm-0">Heterosexual</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="gsm" access="false" id="gsm-1" required="required" aria-required="true" value="Homosexual Characters" type="radio" checked="checked">
+                        <label for="gsm-1">Homosexual Characters</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="gsm" access="false" id="gsm-2" required="required" aria-required="true" value="Genderfluid Characters" type="radio">
+                        <label for="gsm-2">Genderfluid Characters</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="gsm" access="false" id="gsm-3" required="required" aria-required="true" value="Genderless Characters" type="radio">
+                        <label for="gsm-3">Genderless Characters</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="gsm" access="false" id="gsm-4" required="required" aria-required="true" value="Transgender Characters" type="radio">
+                        <label for="gsm-4">Transgender Characters</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="gsm" access="false" id="gsm-5" required="required" aria-required="true" value="Bisexual Characters" type="radio">
+                        <label for="gsm-5">Bisexual Characters</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="gsm" access="false" id="gsm-6" required="required" aria-required="true" value="Pansexual Characters" type="radio">
+                        <label for="gsm-6">Pansexual Characters</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="gsm" access="false" id="gsm-7" required="required" aria-required="true" value="Transvestites" type="radio">
+                        <label for="gsm-7">Transvestites</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="formbuilder-radio-group form-group field-eye">
+                <label for="eye" class="formbuilder-radio-group-label">Eye Color<span class="formbuilder-required">*</span></label>
+                <div class="radio-group">
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-0" required="required" aria-required="true" value="Amber Eyes" type="radio">
+                        <label for="eye-0">Amber Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-1" required="required" aria-required="true" value="Black Eyeballs" type="radio">
+                        <label for="eye-1">Black Eyeballs</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-2" required="required" aria-required="true" value="Black Eyes" type="radio">
+                        <label for="eye-2">Black Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-3" required="required" aria-required="true" value="Blue Eyes" type="radio">
+                        <label for="eye-3">Blue Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-4" required="required" aria-required="true" value="Brown Eyes" type="radio">
+                        <label for="eye-4">Brown Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-5" required="required" aria-required="true" value="Compound Eyes" type="radio">
+                        <label for="eye-5">Compound Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-6" required="required" aria-required="true" value="Gold Eyes" type="radio" checked="checked">
+                        <label for="eye-6">Gold Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-7" required="required" aria-required="true" value="Green Eyes" type="radio">
+                        <label for="eye-7">Green Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-8" required="required" aria-required="true" value="Grey Eyes" type="radio">
+                        <label for="eye-8">Grey Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-9" required="required" aria-required="true" value="Hazel Eyes" type="radio">
+                        <label for="eye-9">Hazel Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-10" required="required" aria-required="true" value="Magenta Eyes" type="radio">
+                        <label for="eye-10">Magenta Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-11" required="required" aria-required="true" value="Multiple Eyes" type="radio">
+                        <label for="eye-11">Multiple Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-12" required="required" aria-required="true" value="No Eyes" type="radio">
+                        <label for="eye-12">No Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-13" required="required" aria-required="true" value="One Eye" type="radio">
+                        <label for="eye-13">One Eye</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-14" required="required" aria-required="true" value="Orange Eyes" type="radio">
+                        <label for="eye-14">Orange Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-15" required="required" aria-required="true" value="Photocellular Eyes" type="radio">
+                        <label for="eye-15">Photocellular Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-16" required="required" aria-required="true" value="Pink Eyes" type="radio">
+                        <label for="eye-16">Pink Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-17" required="required" aria-required="true" value="Purple Eyes" type="radio">
+                        <label for="eye-17">Purple Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-18" required="required" aria-required="true" value="Red Eyes" type="radio">
+                        <label for="eye-18">Red Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-19" required="required" aria-required="true" value="Silver Eyes" type="radio">
+                        <label for="eye-19">Silver Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-20" required="required" aria-required="true" value="Variable Eyes" type="radio">
+                        <label for="eye-20">Variable Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-21" required="required" aria-required="true" value="Violet Eyes" type="radio">
+                        <label for="eye-21">Violet Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-22" required="required" aria-required="true" value="White Eyes" type="radio">
+                        <label for="eye-22">White Eyes</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-23" required="required" aria-required="true" value="Yellow Eyeballs" type="radio">
+                        <label for="eye-23">Yellow Eyeballs</label>
+                    </div>
+                    <div class="d-inline bg-white">
+                        <input name="eye" access="false" id="eye-24" required="required" aria-required="true" value="Yellow Eyes" type="radio">
+                        <label for="eye-24">Yellow Eyes</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <label for="studio" class="formbuilder-radio-group-label">Studio<span class="formbuilder-required">*</span></label>
+                <div class="radio-group">
+                    <div class="formbuilder-radio-inline">
+                        <input name="studio" access="false" id="studio-0" required="required" aria-required="true" value="DC" type="radio">
+                        <label for="studio-0">DC</label>
+                    </div>
+                    <div class="formbuilder-radio-inline">
+                        <input name="studio" access="false" id="studio-1" required="required" aria-required="true" value="MARVEL" type="radio" checked="checked">
+                        <label for="studio-1">MARVEL</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-end">
+            <div class="formbuilder-button form-group field-button-1655574513331">
+                <div class="col text-center">
+                    <button>Click here</button></div>
+                    </div>
+                </div>
+        </form>
+        <h3>
+        {{
+            text
+        }}
+        </h3>
+        </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
