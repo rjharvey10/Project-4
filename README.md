@@ -1,5 +1,4 @@
-# Project #4:
-## Marvel / DC
+# Marvel vs. DC - Good vs. Bad
 
 ### Group Members:
 Christina Chau | 
